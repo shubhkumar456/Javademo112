@@ -11,9 +11,9 @@ public class Forloops {
             int two= 2;
            System.out.println("the table of 2....:"+  two*i);
             }
-        for (int i=13; i<=10; i++){
+        for (int i=1; i<=10; i++){
             int thirteen=13;
-            System.out.println("the table of 13....:"+ thirteen*i);
+            System.out.println("the table of 13: "+thirteen*i);
         }
         }
     }
