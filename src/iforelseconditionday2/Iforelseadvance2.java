@@ -17,7 +17,7 @@ public class Iforelseadvance2 {
         else{
             System.out.println("what iam saying is always not true");
         }
-        if((salary<20000)){
+        if(!(salary<20000)){
             System.out.println("finally i learn this advance statement");
         }
         else{
