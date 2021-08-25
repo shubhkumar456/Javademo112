@@ -12,6 +12,11 @@ public class Arraydemo{
         for(int i=0; i< intarrays.length; i++){
             System.out.println("here are some variables of a number  "+intarrays[i]);
         }
+        double[] deciarray={21.1,23.4,43.3,55.1,65.4};
+        for (int i=0; i< deciarray.length; i++) {
+            System.out.println("some decimal value " + deciarray[i]);
+
+        }
 
     }
 
