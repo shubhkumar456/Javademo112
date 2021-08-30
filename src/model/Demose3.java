@@ -6,7 +6,7 @@ public class Demose3 {
 
     public void demo(){
 
-        HashSet<String> name = new HashSet<>();
+        HashSet <String> name = new HashSet<>();
 
 
         name.add("java");
@@ -17,19 +17,18 @@ public class Demose3 {
         name.add("compiler");
         name.add("computer");
         name.add("computer");
+
 
         for (String var : name){
             System.out.println("Printing elemnets  :"+var);
         }
 
-        name.remove(0);
-        name.remove(2);
+        name.remove("java");
+        name.remove("compiler");
 
         for (String inp : name){
             System.out.println("Printing elemnets after removing :"+inp);
         }
-
-
 
 
 
