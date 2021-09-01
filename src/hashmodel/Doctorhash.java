@@ -4,7 +4,7 @@ import models.Doctor;
 
 import java.util.HashMap;
 
-public class Doctorhas {
+public class Doctorhash {
 
     public void demo(){
 
@@ -56,7 +56,7 @@ public class Doctorhas {
     }
 
     public static void main(String[] args) {
-        Doctorhas obj = new Doctorhas();
+        Doctorhash obj = new Doctorhash();
         obj.demo();
     }
 }
