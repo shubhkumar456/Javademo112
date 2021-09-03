@@ -4,21 +4,21 @@ public class B4 {
 
     public void demo(){
 
-        System.out.print("If you are bad then iam your dad");
-        System.out.print("Showme some of ur moves");
+        System.out.println("If you are bad then iam your dad");
+        System.out.println("Showme some of ur moves");
     }
 
     public void demo2(){
 
-        System.out.print("my friends name is subodh kumar");
-        System.out.print("there is no true friends in this world");
+        System.out.println("my friends name is subodh kumar");
+        System.out.println("there is no true friends in this world");
 
     }
 
     public void demo3(){
 
-        System.out.print("no if no but only jatt ");
-        System.out.print("everytime i see in my dreams");
+        System.out.println("no if no but only jatt ");
+        System.out.println("everytime i see in my dreams");
 
     }
 
