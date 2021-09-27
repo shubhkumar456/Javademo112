@@ -55,4 +55,7 @@ public class Doctor {
     public void setNurse(int nurse) {
         this.nurse = nurse;
     }
+
+    public void put(int i, String doctor) {
+    }
 }

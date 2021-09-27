@@ -41,4 +41,5 @@ public class Arraylist {
         Arraylist obj =new Arraylist();
         obj.demo();
     }
+
 }
