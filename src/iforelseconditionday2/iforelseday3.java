@@ -34,7 +34,8 @@ public class iforelseday3 {
 
         int num =101;
         String nam ="aanya";
-        if (num>100 && nam=="aanya" ){
+        double price = 200.0;
+        if (num>100 && nam=="aanya" && price>100.0 ){
             System.out.println("All Value is correct whinch i put in if loops");
         }
         else{
@@ -44,10 +45,10 @@ public class iforelseday3 {
         int kilo= 74;
         String Meter ="digital";
         if (kilo>80 || Meter=="Digital"){
-            System.out.println("output comes in if loops");
+            System.out.println("output comes in if conditions");
         }
         else{
-            System.out.println("output comes in else loops");
+            System.out.println("output comes in else conditions");
         }
 
         int finger = 10;
