@@ -38,8 +38,9 @@ public class Arraylist {
     }
 
     public static void main(String[] args) {
-        Arraylist obj =new Arraylist();
-        obj.demo();
+        System.out.println();
     }
+
+
 
 }
