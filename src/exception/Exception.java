@@ -1,6 +1,6 @@
 package exception;
 
-public class Exception extends Throwable {
+public class  Exception extends Throwable {
 
     public void divide(int a, int b){
 
