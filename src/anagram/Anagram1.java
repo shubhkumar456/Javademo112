@@ -1,9 +1,9 @@
-package armstrong;
+package anagram;
 
-public class Armstrong3 {
+public class Anagram1 {
     public static void main(String[] args) {
         int r, sum=0;
-        int n=142;
+        int n=153;
         int temp=n;
         while (n>0){
             r=n%10;
@@ -11,8 +11,8 @@ public class Armstrong3 {
             n=n/10;
         }
         if (temp==sum)
-            System.out.println("This is armstrong number");
+            System.out.println("This is anagram");
         else
-            System.out.println("This is not armstrong number");
+            System.out.println("This is not anagram");
     }
 }

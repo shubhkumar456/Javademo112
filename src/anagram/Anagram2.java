@@ -4,32 +4,15 @@ import java.util.Arrays;
 
 public class Anagram2 {
     public static void main(String[] args) {
-        String ch = "clad";
-        String ch2= "Deal";
-
-        ch = ch.toLowerCase();
-        ch2= ch2.toLowerCase();
-
-        if (ch.length()==ch2.length()){
-            char[] var = ch.toCharArray();
-            char[] var2= ch2.toCharArray();
-
-            Arrays.sort(var);
-            Arrays.sort(var2);
-
-            boolean output = Arrays.equals(var,var2);
-
-            if (output){
-                System.out.println(ch+" and "+ch2+" is anagram");
-            }
-            else{
-                System.out.println(ch+" and "+ch2+" are not anagram");
-            }
-
-        }
-        else{
-            System.out.println(ch+" and "+ch2+" are not anagram");
-        }
-
+        String one ="java";
+        String two ="avaj";
+        System.out.println("Both are Anagrams ::"+anagram(one,two));
+    }
+    public static boolean anagram(String one, String two){
+        char[] ch1=one.toCharArray();
+        char[] ch2= two.toCharArray();
+        Arrays.sort(ch1);
+        Arrays.sort(ch2);
+        return Arrays.equals(ch1,ch2);
     }
 }

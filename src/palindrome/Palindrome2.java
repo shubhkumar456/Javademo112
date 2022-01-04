@@ -1,20 +1,20 @@
 package palindrome;
 
 public class Palindrome2 {
-
     public static void main(String[] args) {
-        int r, sum=0,temp;
-        int n=234;
-        temp=n;
-        while (temp>0){
-            r=temp%10;
-            sum= (sum*10)+r;
-            temp=temp/10;
+        int a;
+        int sum =0;
+        int x=161;
+        int temp=x;
+        while (x>0){
+            a=x%10;
+            x=x/10;
+            sum = sum*10+a;
         }
-        if(temp==sum)
-            System.out.println("palindrome no.");
-
+        if (temp==sum)
+            System.out.println("it is palindrome");
         else
-            System.out.println("not palindrome");
+            System.out.println("it is not palindrome");
+
     }
 }

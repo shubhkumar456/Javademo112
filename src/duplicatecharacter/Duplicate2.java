@@ -2,16 +2,16 @@ package duplicatecharacter;
 
 public class Duplicate2 {
     public static void main(String[] args) {
-        String S = "Iam Complete My all Interview Java Program";
-        char[] val = S.toCharArray();
-        System.out.println("The string are :-"+S);
-        System.out.print("the duplicate characters are: ");
+        String name = "Bang Bang";
+        char[] str = name.toCharArray();
 
-        for (int i=0; i<S.length(); i++){
-            for (int j=i+1; j<S.length(); j++){
-                if (val[i]==val[j]){
-                    System.out.print(val[j]+"");
-                    break;
+        System.out.println("the String are " + name);
+        System.out.print("Duplicate characters are : ");
+
+        for (int i = 0; i < str.length; i++) {
+            for (int j = i + 1; j < str.length; j++) {
+                if (str[i] == str[j]) {
+                    System.out.print(str[j] + " ");
                 }
             }
         }

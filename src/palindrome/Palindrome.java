@@ -1,20 +1,24 @@
 package palindrome;
 
+import java.util.Scanner;
+
 public class Palindrome {
     public static void main(String[] args) {
-        int r, sum=0,temp;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value");
+        int x;
+        int sum = 0;
+        int y = sc.nextInt();
+        int temp = y;
 
-        int n=151;
-        temp=n;
-        while (n>0){
-            r=n%10;
-            sum=(sum*10)+r;
-            n=n/10;
+        while (y > 0) {
+            x = y % 10;
+            y = y / 10;
+            sum = sum * 10 + x;
         }
         if (temp==sum)
-            System.out.println("Palindrome number");
-
+            System.out.println("It is palindrome");
         else
-            System.out.println("not Palindrome");
+            System.out.println("it is not");
     }
 }

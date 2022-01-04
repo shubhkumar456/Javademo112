@@ -2,18 +2,18 @@ package duplicatecharacter;
 
 public class Duplicate3 {
     public static void main(String[] args) {
-        String name = "Shubendra Kumar";
-        char[] var = name.toCharArray();
-        System.out.println("The string are ="+name);
-        System.out.print("the duplicates are : ");
+        String mean="Hello World Welcome ";
+        char[] s= mean.toCharArray();
 
-        for (int i=0; i<name.length(); i++){
-            for (int j=i+1; j<name.length(); j++){
-                if (var[i]==var[j]){
-                    System.out.print(var[i]);
-                    break;
-                }
+        System.out.println("String are :-"+mean);
+        System.out.print("Duplicates are : ");
+        for (int i=0;i<s.length;i++){
+            for (int j=i+1;j< s.length;j++){
+                if (s[i]==s[j]){
+                    System.out.print(s[j]+" ");
+                break;
             }
         }
     }
+}
 }

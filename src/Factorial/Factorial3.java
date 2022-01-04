@@ -2,11 +2,11 @@ package Factorial;
 
 public class Factorial3 {
     public static void main(String[] args) {
-        int x, var=1;
-        int opt= 9;
-        for (x=1;x<=opt;x++){
-            var=var*x;
+        int r,fact=1;
+        int num=10;
+        for ( r=1;r<=num;r++){
+            fact=fact*r;
         }
-        System.out.println("Factor of "+opt+" is "+var);
+        System.out.println("The factorial of Ten is :"+fact);
     }
 }

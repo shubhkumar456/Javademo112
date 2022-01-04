@@ -1,24 +1,18 @@
 package palindrome;
 
-import java.util.Scanner;
-
 public class Palindrome3 {
-
     public static void main(String[] args) {
-        int a; int sum=0; int temp,x;
-
-        System.out.println("enter value");
-        Scanner S = new Scanner(System.in);
-        a=S.nextInt();
-        temp=a;
-        while (a>0){
-            x=a%10;
-            sum=(sum*10)+x;
-            a=a/10;
+        int r, sum=0;
+        int n=121;
+        int temp=n;
+        while (n>0){
+            r=n%10;
+            sum=sum*10+r;
+            n=n/10;
         }
-        if (temp==sum)
-            System.out.println("palindrome number");
-        else
-            System.out.println("not Palindrome");
+            if (temp==sum)
+                System.out.println("This is Palindrome number");
+            else
+                System.out.println("This is not Palindrome number");
     }
 }

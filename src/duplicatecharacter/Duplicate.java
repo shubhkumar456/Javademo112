@@ -11,8 +11,8 @@ public class Duplicate {
         for (int i = 0; i < str.length(); i++) {
             for (int j = i + 1; j < str.length(); j++) {
                 if (var[i] == var[j]) {
-                    System.out.print(var[j]+" ");
-                    break;
+                    System.out.print(var[j]+",");
+                     break;
                 }
             }
         }

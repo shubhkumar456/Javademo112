@@ -2,37 +2,22 @@ package armstrong;
 
 import java.util.Scanner;
 
-public class Armstrong2{
-
-    static boolean armstrong(int m){
-        int temp, digit=0,last=0,sum=0;
-
-        temp=m;
-        while (temp>0){
-            temp=temp/10;
-            digit++;
-        }
-        temp=m;
-        while (temp>0){
-            last=temp%10;
-            sum +=(Math.pow(last,digit));
-            temp=temp/10;
-        }
-        if (m==sum)
-            return true;
-        else return false;
-
-    }
-
+public class Armstrong2 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int m= sc.nextInt();
+        int var=m;
+        int a,sum=0;
+        while (m>0){
+            a=m%10;
+            m=m/10;
+            sum=sum+a*a*a;
+        }
+        if (var==sum)
+            System.out.println("It is armstrong");
+        else
+            System.out.println("it is not armstrong");
 
-        System.out.println("enter limit ");
-        Scanner n = new Scanner(System.in);
-        int v = n.nextInt();
-        System.out.println("armsstrong numbers are "+v+" are :");
-
-        for (int a=0; a<=v; a++)
-            if (armstrong(a))
-                System.out.println(a+"-");
     }
 }
