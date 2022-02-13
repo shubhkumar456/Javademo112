@@ -17,5 +17,7 @@ public class Loopsdecrement {
             int nintseven=97;
             System.out.println("decrement of table nintyseven....."+nintseven*i);
         }
+
+
     }
 }
