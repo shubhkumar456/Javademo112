@@ -1,5 +1,3 @@
-import hashmapprogram.Hashmap;
-
 import java.util.HashMap;
 
 public class Occures {
