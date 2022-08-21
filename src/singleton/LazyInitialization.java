@@ -1,14 +1,5 @@
-package singleton;
-
-public class LazyInitialization {
-    private static LazyInitialization instance;
-
-    private LazyInitialization(){}
-
-    public static LazyInitialization getInstance(){
-        if(instance==null){
-            instance= new LazyInitialization();
-        }
-        return instance;
-    }
-}
+//List<Integer> list =new ArrayList<>();
+//        list.add(1);
+//        list.add(2);
+//        list.add(3);
+//        list.remove(2);
