@@ -1,6 +1,6 @@
 package reverseStringwithPalindrome;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
+//import com.sun.xml.internal.ws.api.ha.StickyFeature;
 
 public class Revpalin {
     public static void main(String[] args) {
