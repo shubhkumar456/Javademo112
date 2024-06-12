@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 //    import static java8.Java8_Demo.str;
 
     public class main {
-        public static void main(String[] args) {
+        public static void main(String [] args) {
 
 //            String str ="Java Articles are Awesome";
             // find first not repeating character from the given string
